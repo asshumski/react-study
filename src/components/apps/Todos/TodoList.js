@@ -1,7 +1,7 @@
 import React from 'react';
 import Todo from "./Todo";
 
-export default class Index extends React.Component {
+export default class TodoList extends React.Component {
     state = {
         filters: [
             {

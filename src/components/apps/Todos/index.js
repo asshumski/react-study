@@ -2,7 +2,7 @@ import React from 'react';
 import TodoForm from "./TodoForm";
 import Index from "./TodoList";
 
-export default class Todos extends React.Component {
+export default class TodoList extends React.Component {
     state = {
         todos: []
     };
